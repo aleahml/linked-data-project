@@ -1,0 +1,10 @@
+Source Field,Target Entity,RDF Property,Vocabulary / Namespace,Value Type (Literal/URI),Datatype / Lang Tag,Cardinality,Transformation Notes,External Linking Strategy,Example Value
+Title,Instance,bf:title,bf (http://id.loc.gov/ontologies/bibframe/),Literal,@en,1,Strip trailing punctuation,,In a Sunburned Country
+Author,Person,bf:agent,bf (http://id.loc.gov/ontologies/bibframe/),URI,,1..n,,VIAF,http://viaf.org/viaf/59134159
+Average rating,Work,schema:ratingValue,schema (https://schema.org/),Literal,xsd:decimal,1,Standardize numerical format (decimal separators),,4.07
+ISBN,Instance,rdf:value,rdf (http://www.w3.org/1999/02/22-rdf-syntax-ns#),Literal,xsd:string,1,Remove non-numeric characters,,767903862
+ISBN-13,Instance,rdf:value,rdf (http://www.w3.org/1999/02/22-rdf-syntax-ns#),Literal,xsd:string,1,Remove non-numeric characters,,9780767903868
+Number of pages,Instance,rdfs:label,rdfs (http://www.w3.org/2000/01/rdf-schema#),Literal,xsd:string,1,"Add and standardize units (""pages"") ",,335 pages
+Number of ratings,Work,schema:ratingCount,schema (https://schema.org/),Literal,xsd:integer,1,Remove non-numeric characters (commas),,72451
+Publication date,Instance,bf:date,bf (http://id.loc.gov/ontologies/bibframe/),Literal,xsd:date,1,"ISO 8601 ""YYYY-MM-DD""",,2001-05-15
+Publisher,Organization,bf:agent,bf (http://id.loc.gov/ontologies/bibframe/),URI,,1,,Wikidata,https://www.wikidata.org/wiki/Q4972414
