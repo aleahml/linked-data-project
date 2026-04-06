@@ -7,5 +7,7 @@ On the other hand, ISBN number, number of pages, publication date, and title are
 Each author and publisher are assigned a URI because they are distinct entities (people and organizations) that exist independently of the books in this dataset. By using URIs, these entities can be linked across multiple resources, which significantly improves discoverability on the web. Within this project, authors are tied to the overall Work, while publishers are tied to the Instance because they vary based on specific edition. 
 
 Some examples of RDF triples in this dataset are:
+
 ex:InaSunburnedCountry_Instance bf:title "In a Sunburned Country"@en .
+
 ex:TheKnownWorld_Instance bf:date "2006-08-29"^^xsd:date .
